@@ -132,28 +132,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **list_id** | **int**| Id of the list |
- **contact_emails** | [**\Swagger\Client\Model\AddContactToList**](../Model/\Swagger\Client\Model\AddContactToList.md)| Emails addresses of the contacts |
-
-### Return type
-
-[**\Swagger\Client\Model\PostContactInfo**](../Model/PostContactInfo.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
-
 # **createAttribute**
 > createAttribute($attribute_category, $attribute_name, $create_attribute)
 
@@ -182,28 +160,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **attribute_category** | **string**| Category of the attribute |
- **attribute_name** | **string**| Name of the attribute |
- **create_attribute** | [**\Swagger\Client\Model\CreateAttribute**](../Model/\Swagger\Client\Model\CreateAttribute.md)| Values to create an attribute |
-
-### Return type
-
-void (empty response body)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createContact**
 > \Swagger\Client\Model\CreateUpdateContactModel createContact($create_contact)
@@ -232,27 +188,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **create_contact** | [**\Swagger\Client\Model\CreateContact**](../Model/\Swagger\Client\Model\CreateContact.md)| Values to create a contact |
-
-### Return type
-
-[**\Swagger\Client\Model\CreateUpdateContactModel**](../Model/CreateUpdateContactModel.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
-
 # **createFolder**
 > \Swagger\Client\Model\CreateModel createFolder($create_folder)
 
@@ -280,26 +215,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **create_folder** | [**\Swagger\Client\Model\CreateUpdateFolder**](../Model/\Swagger\Client\Model\CreateUpdateFolder.md)| Name of the folder |
-
-### Return type
-
-[**\Swagger\Client\Model\CreateModel**](../Model/CreateModel.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createList**
 > \Swagger\Client\Model\CreateModel createList($create_list)
@@ -328,26 +243,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **create_list** | [**\Swagger\Client\Model\CreateList**](../Model/\Swagger\Client\Model\CreateList.md)| Values to create a list |
-
-### Return type
-
-[**\Swagger\Client\Model\CreateModel**](../Model/CreateModel.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **deleteAttribute**
 > deleteAttribute($attribute_category, $attribute_name)
@@ -376,27 +271,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **attribute_category** | **string**| Category of the attribute |
- **attribute_name** | **string**| Name of the existing attribute |
-
-### Return type
-
-void (empty response body)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **deleteContact**
 > deleteContact($email)
@@ -424,26 +298,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **email** | **string**| Email (urlencoded) of the contact |
-
-### Return type
-
-void (empty response body)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **deleteFolder**
 > deleteFolder($folder_id)
@@ -471,26 +325,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **folder_id** | **int**| Id of the folder |
-
-### Return type
-
-void (empty response body)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **deleteList**
 > deleteList($list_id)
@@ -518,26 +352,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **list_id** | **int**| Id of the list |
-
-### Return type
-
-void (empty response body)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getAttributes**
 > \Swagger\Client\Model\GetAttributes getAttributes()
@@ -565,23 +379,6 @@ try {
 ?>
 ```
 
-### Parameters
-This endpoint does not need any parameter.
-
-### Return type
-
-[**\Swagger\Client\Model\GetAttributes**](../Model/GetAttributes.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getContactInfo**
 > \Swagger\Client\Model\GetExtendedContactDetails getContactInfo($email)
@@ -610,26 +407,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **email** | **string**| Email (urlencoded) of the contact OR its SMS attribute value |
-
-### Return type
-
-[**\Swagger\Client\Model\GetExtendedContactDetails**](../Model/GetExtendedContactDetails.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getContactStats**
 > \Swagger\Client\Model\GetContactCampaignStats getContactStats($email)
@@ -657,27 +434,6 @@ try {
 }
 ?>
 ```
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **email** | **string**| Email address (urlencoded) of the contact |
-
-### Return type
-
-[**\Swagger\Client\Model\GetContactCampaignStats**](../Model/GetContactCampaignStats.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getContacts**
 > \Swagger\Client\Model\GetContacts getContacts($limit, $offset, $modified_since)
@@ -708,28 +464,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **limit** | **int**| Number of documents per page | [optional] [default to 50]
- **offset** | **int**| Index of the first document of the page | [optional] [default to 0]
- **modified_since** | **\DateTime**| Filter (urlencoded) the contacts modified after a given UTC date-time (YYYY-MM-DDTHH:mm:ss.SSSZ). Prefer to pass your timezone in date-time format for accurate result. | [optional]
-
-### Return type
-
-[**\Swagger\Client\Model\GetContacts**](../Model/GetContacts.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getContactsFromList**
 > \Swagger\Client\Model\GetContacts getContactsFromList($list_id, $modified_since, $limit, $offset)
@@ -761,29 +495,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **list_id** | **int**| Id of the list |
- **modified_since** | **\DateTime**| Filter (urlencoded) the contacts modified after a given UTC date-time (YYYY-MM-DDTHH:mm:ss.SSSZ). Prefer to pass your timezone in date-time format for accurate result. | [optional]
- **limit** | **int**| Number of documents per page | [optional] [default to 50]
- **offset** | **int**| Index of the first document of the page | [optional] [default to 0]
-
-### Return type
-
-[**\Swagger\Client\Model\GetContacts**](../Model/GetContacts.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFolder**
 > \Swagger\Client\Model\GetFolder getFolder($folder_id)
@@ -811,27 +522,6 @@ try {
 }
 ?>
 ```
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **folder_id** | **int**| id of the folder |
-
-### Return type
-
-[**\Swagger\Client\Model\GetFolder**](../Model/GetFolder.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFolderLists**
 > \Swagger\Client\Model\GetFolderLists getFolderLists($folder_id, $limit, $offset)
@@ -862,29 +552,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **folder_id** | **int**| Id of the folder |
- **limit** | **int**| Number of documents per page | [optional] [default to 10]
- **offset** | **int**| Index of the first document of the page | [optional] [default to 0]
-
-### Return type
-
-[**\Swagger\Client\Model\GetFolderLists**](../Model/GetFolderLists.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
-
 # **getFolders**
 > \Swagger\Client\Model\GetFolders getFolders($limit, $offset)
 
@@ -913,28 +580,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **limit** | **int**| Number of documents per page | [default to 10]
- **offset** | **int**| Index of the first document of the page | [default to 0]
-
-### Return type
-
-[**\Swagger\Client\Model\GetFolders**](../Model/GetFolders.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
-
 # **getList**
 > \Swagger\Client\Model\GetExtendedList getList($list_id)
 
@@ -961,27 +606,6 @@ try {
 }
 ?>
 ```
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **list_id** | **int**| Id of the list |
-
-### Return type
-
-[**\Swagger\Client\Model\GetExtendedList**](../Model/GetExtendedList.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getLists**
 > \Swagger\Client\Model\GetLists getLists($limit, $offset)
@@ -1011,27 +635,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **limit** | **int**| Number of documents per page | [optional] [default to 10]
- **offset** | **int**| Index of the first document of the page | [optional] [default to 0]
-
-### Return type
-
-[**\Swagger\Client\Model\GetLists**](../Model/GetLists.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **importContacts**
 > \Swagger\Client\Model\CreatedProcessId importContacts($request_contact_import)
@@ -1062,27 +665,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **request_contact_import** | [**\Swagger\Client\Model\RequestContactImport**](../Model/\Swagger\Client\Model\RequestContactImport.md)| Values to import contacts in Mailvio. To know more about the expected format, please have a look at &#x60;&#x60;https://help.api.mailvio.com/hc/en-us/articles/209499265-Build-contacts-lists-for-your-email-marketing-campaigns&#x60;&#x60; |
-
-### Return type
-
-[**\Swagger\Client\Model\CreatedProcessId**](../Model/CreatedProcessId.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
-
 # **removeContactFromList**
 > \Swagger\Client\Model\PostContactInfo removeContactFromList($list_id, $contact_emails)
 
@@ -1110,28 +692,6 @@ try {
 }
 ?>
 ```
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **list_id** | **int**| Id of the list |
- **contact_emails** | [**\Swagger\Client\Model\RemoveContactFromList**](../Model/\Swagger\Client\Model\RemoveContactFromList.md)| Emails adresses of the contact |
-
-### Return type
-
-[**\Swagger\Client\Model\PostContactInfo**](../Model/PostContactInfo.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **requestContactExport**
 > \Swagger\Client\Model\CreatedProcessId requestContactExport($request_contact_export)
@@ -1162,26 +722,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **request_contact_export** | [**\Swagger\Client\Model\RequestContactExport**](../Model/\Swagger\Client\Model\RequestContactExport.md)| Values to request a contact export |
-
-### Return type
-
-[**\Swagger\Client\Model\CreatedProcessId**](../Model/CreatedProcessId.md)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateAttribute**
 > updateAttribute($attribute_category, $attribute_name, $update_attribute)
@@ -1211,29 +751,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **attribute_category** | **string**| Category of the attribute |
- **attribute_name** | **string**| Name of the existing attribute |
- **update_attribute** | [**\Swagger\Client\Model\UpdateAttribute**](../Model/\Swagger\Client\Model\UpdateAttribute.md)| Values to update an attribute |
-
-### Return type
-
-void (empty response body)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
-
 # **updateContact**
 > updateContact($email, $update_contact)
 
@@ -1261,27 +778,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **email** | **string**| Email (urlencoded) of the contact |
- **update_contact** | [**\Swagger\Client\Model\UpdateContact**](../Model/\Swagger\Client\Model\UpdateContact.md)| Values to update a contact |
-
-### Return type
-
-void (empty response body)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateFolder**
 > updateFolder($folder_id, $update_folder)
@@ -1310,27 +806,6 @@ try {
 ?>
 ```
 
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **folder_id** | **int**| Id of the folder |
- **update_folder** | [**\Swagger\Client\Model\CreateUpdateFolder**](../Model/\Swagger\Client\Model\CreateUpdateFolder.md)| Name of the folder |
-
-### Return type
-
-void (empty response body)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateList**
 > updateList($list_id, $update_list)
@@ -1358,26 +833,6 @@ try {
 }
 ?>
 ```
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **list_id** | **int**| Id of the list |
- **update_list** | [**\Swagger\Client\Model\UpdateList**](../Model/\Swagger\Client\Model\UpdateList.md)| Values to update a list |
-
-### Return type
-
-void (empty response body)
-
-### Authorization
-
-[api-key](../../README.md#api-key)
-
-### HTTP request headers
-
- - **Content-Type**: application/json
- - **Accept**: application/json
 
 
 ## Documentation for API Endpoints
